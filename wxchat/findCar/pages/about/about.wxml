@@ -1,0 +1,26 @@
+<view class="page">
+  <view class="top">
+    <view class="title">关于</view>
+  </view>
+  <view class="weui-article__section bd"> 
+                    <view class="weui-article__h3">关于小程序</view>
+                    <view class="weui-article__p">
+                    <text decode="{{true}}" space="{{true}}">&emsp;&emsp;</text>
+                        本小程序主要功能是发布找人或者找车信息，与找车群比起来信息更加明了，不管您是找人还是找车，都可以了解大概的信息，然后联系对方。方便快捷，后续的功能会继续完善，也希望可以反馈您的建议。
+                    </view>
+                    <view class="weui-article__h3">关于作者</view>
+                    <view class="weui-article__p">
+                    <text decode="{{true}}" space="{{true}}">&emsp;&emsp;</text>
+                        疫情期间编写了这个小程序，一枚软件工程专业学生，折腾在 0 和 1 世界的少年；一个终身学习者，誓将学习无限循环. 希望结识可以共同成长的小伙伴.
+                    </view>
+                    <!-- <view class="weui-article__p">
+                        点击图片并保存后扫描可以访问我的博客
+                        <image bindtap="preview" data-url="{{about[0]}}" class="weui-article__img" src="{{about[0]}}" mode="aspectFit" style="height: 180px" />
+                        </view> -->
+                        
+                      <view class="weui-article__bottom">
+                        <view class="bottomFont">下方是我的个人公众号与QQ</view>
+                        <image bindtap="preview" class="weui-article__img" src="{{about[1]}}" mode="aspectFit" data-url="{{about[1]}}" style="height: 180px" />
+                    </view>
+                </view>
+</view>
